@@ -1,0 +1,145 @@
+
+
+body {
+  font-family: 'Pacifico', cursive;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.nav-wrapper {
+  padding: 0 75px;
+}
+
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
+
+.section-Dona {
+  height: 100%;
+  width: 100%;
+}
+
+.section-Guarda {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  margin-top: 5%;
+  font-size: 3em;
+}
+
+.header-subtitle {
+  margin-bottom: 5%;
+  font-size: 1.5em;
+}
+
+.brown-text {
+    color: #4db6ac !important;
+}
+
+.yellow-text {
+  color: #ffffff !important;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.43em;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+
+
+  .nav-wrapper {
+    padding: 0 10px;
+  }
+
+  nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 0;
+}
+
+}
+
+
+.col-Dona {
+  margin-top: 60px;
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.Fai-icon {
+  font-size: 7em;
+  margin-top: 50px;
+}
+
+.Guarda-icon {
+  font-size: 7em;
+  margin-top: 50px;
+}
+
+
+
+.btn-Fai {
+  margin-top: 10px;
+}
+
+.btn-Guarda {
+  margin-top: 10px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.test {
+  color: #ffffff !important;
+  font-size: 5em;
+  padding: 0 20px;
+}
